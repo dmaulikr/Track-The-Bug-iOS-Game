@@ -12,7 +12,7 @@ I've also made a demo video to explain in an overview what the game is about.
 
 ## Dependence:
 
-- SprikeKit FrameWorks
+- SpriteKit FrameWorks
 - Helper classes from raywenderlich.com
 
 ## Version:
