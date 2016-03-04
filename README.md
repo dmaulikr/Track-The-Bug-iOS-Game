@@ -13,7 +13,7 @@ I've also made a demo video to explain in an overview what the game is about.
 ## Dependence:
 
 - SpriteKit FrameWorks
-- Helper classes from raywenderlich.com
+- Helper classes from raywenderlich.com (AI Folder and SKTUtils Folder)
 
 ## Version:
 

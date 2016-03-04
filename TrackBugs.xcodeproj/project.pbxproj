@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1808B42D1C89DC4A004816AC /* SKTTimingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1808B42C1C89DC4A004816AC /* SKTTimingFunctions.m */; };
+		1808B4301C89DC59004816AC /* SKTEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 1808B42F1C89DC59004816AC /* SKTEffects.m */; };
+		1808B4331C89DCB3004816AC /* slGameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1808B4321C89DCB3004816AC /* slGameData.m */; };
+		1808B4361C89DCFF004816AC /* AISteering.m in Sources */ = {isa = PBXBuildFile; fileRef = 1808B4351C89DCFF004816AC /* AISteering.m */; };
+		1808B4391C89DD47004816AC /* UIImage+Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 1808B4381C89DD47004816AC /* UIImage+Mask.m */; };
 		182435151C6166A7009510F0 /* touch.sks in Resources */ = {isa = PBXBuildFile; fileRef = 182435131C6166A7009510F0 /* touch.sks */; };
 		1895F8F01C3DD1CB00968D96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895F8EF1C3DD1CB00968D96 /* main.m */; };
 		1895F8F31C3DD1CB00968D96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895F8F21C3DD1CB00968D96 /* AppDelegate.m */; };
@@ -17,7 +22,6 @@
 		1895F90E1C3DD1CB00968D96 /* TrackBugsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895F90D1C3DD1CB00968D96 /* TrackBugsTests.m */; };
 		1895F9191C3DD1CB00968D96 /* TrackBugsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895F9181C3DD1CB00968D96 /* TrackBugsUITests.m */; };
 		1895F9281C3DD33500968D96 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895F9271C3DD33500968D96 /* MyScene.m */; };
-		1895F9361C3DD3AD00968D96 /* AISteering.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895F92A1C3DD3AD00968D96 /* AISteering.m */; };
 		1895F9371C3DD3AD00968D96 /* Code.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895F92C1C3DD3AD00968D96 /* Code.m */; };
 		1895F9391C3DD3AD00968D96 /* enemyDeath.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1895F92F1C3DD3AD00968D96 /* enemyDeath.sks */; };
 		1895F93A1C3DD3AD00968D96 /* engine.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1895F9301C3DD3AD00968D96 /* engine.sks */; };
@@ -33,19 +37,15 @@
 		1895F9521C3DD3CF00968D96 /* explode.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1895F94B1C3DD3CF00968D96 /* explode.wav */; };
 		1895F9561C3DD3FC00968D96 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 1895F9531C3DD3FC00968D96 /* spark.png */; };
 		1895F9571C3DD3FC00968D96 /* thirteen_pixel_fonts.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1895F9541C3DD3FC00968D96 /* thirteen_pixel_fonts.ttf */; };
-		18B8711C1C4D34B600B8CA02 /* SKTEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8711B1C4D34B600B8CA02 /* SKTEffects.m */; };
-		18B8711F1C4D34E500B8CA02 /* SKTTimingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8711E1C4D34E500B8CA02 /* SKTTimingFunctions.m */; };
 		18D383571C57B9370001D66A /* EndScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D383521C57B9370001D66A /* EndScene.m */; };
 		18D383581C57B9370001D66A /* BugCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D383541C57B9370001D66A /* BugCode.m */; };
 		18D3835C1C57B9BF0001D66A /* GoodCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3835B1C57B9BF0001D66A /* GoodCode.m */; };
 		18F4942F1C3F0D09007F7CBA /* LanguageScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4942E1C3F0D09007F7CBA /* LanguageScene.m */; };
 		18F494321C3F0D26007F7CBA /* LevelScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F494311C3F0D26007F7CBA /* LevelScene.m */; };
-		18F494351C3F3646007F7CBA /* slGameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F494341C3F3646007F7CBA /* slGameData.m */; };
 		18F494381C3F369F007F7CBA /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F494371C3F369F007F7CBA /* IntroScene.m */; };
 		18FF27661C59467900E028F4 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18FF27651C59467900E028F4 /* Settings.bundle */; };
 		18FF27731C596EFF00E028F4 /* 25_mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FF276F1C596EFF00E028F4 /* 25_mask.png */; };
 		18FF27741C596EFF00E028F4 /* Hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FF27701C596EFF00E028F4 /* Hi.png */; };
-		18FF27751C596EFF00E028F4 /* UIImage+Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FF27721C596EFF00E028F4 /* UIImage+Mask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +66,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1808B42B1C89DC4A004816AC /* SKTTimingFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTTimingFunctions.h; sourceTree = "<group>"; };
+		1808B42C1C89DC4A004816AC /* SKTTimingFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTTimingFunctions.m; sourceTree = "<group>"; };
+		1808B42E1C89DC59004816AC /* SKTEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTEffects.h; sourceTree = "<group>"; };
+		1808B42F1C89DC59004816AC /* SKTEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTEffects.m; sourceTree = "<group>"; };
+		1808B4311C89DCB3004816AC /* slGameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = slGameData.h; path = TrackBugs/saveData/slGameData.h; sourceTree = "<group>"; };
+		1808B4321C89DCB3004816AC /* slGameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = slGameData.m; path = TrackBugs/saveData/slGameData.m; sourceTree = "<group>"; };
+		1808B4341C89DCFF004816AC /* AISteering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AISteering.h; path = TrackBugs/AI/AISteering.h; sourceTree = "<group>"; };
+		1808B4351C89DCFF004816AC /* AISteering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AISteering.m; path = TrackBugs/AI/AISteering.m; sourceTree = "<group>"; };
+		1808B4371C89DD47004816AC /* UIImage+Mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Mask.h"; sourceTree = "<group>"; };
+		1808B4381C89DD47004816AC /* UIImage+Mask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Mask.m"; sourceTree = "<group>"; };
 		182435131C6166A7009510F0 /* touch.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = touch.sks; sourceTree = "<group>"; };
 		1895F8EB1C3DD1CB00968D96 /* TrackBugs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackBugs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1895F8EF1C3DD1CB00968D96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,8 +95,6 @@
 		1895F91A1C3DD1CB00968D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1895F9261C3DD33500968D96 /* MyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		1895F9271C3DD33500968D96 /* MyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		1895F9291C3DD3AD00968D96 /* AISteering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AISteering.h; path = TrackBugs/AISteering.h; sourceTree = "<group>"; };
-		1895F92A1C3DD3AD00968D96 /* AISteering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AISteering.m; path = TrackBugs/AISteering.m; sourceTree = "<group>"; };
 		1895F92B1C3DD3AD00968D96 /* Code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Code.h; path = TrackBugs/Code.h; sourceTree = "<group>"; };
 		1895F92C1C3DD3AD00968D96 /* Code.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Code.m; path = TrackBugs/Code.m; sourceTree = "<group>"; };
 		1895F92F1C3DD3AD00968D96 /* enemyDeath.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = enemyDeath.sks; path = TrackBugs/enemyDeath.sks; sourceTree = "<group>"; };
@@ -111,10 +119,6 @@
 		1895F9531C3DD3FC00968D96 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		1895F9541C3DD3FC00968D96 /* thirteen_pixel_fonts.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = thirteen_pixel_fonts.ttf; sourceTree = "<group>"; };
 		1895F9551C3DD3FC00968D96 /* TrackBugs-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TrackBugs-Prefix.pch"; sourceTree = "<group>"; };
-		18B8711A1C4D34B600B8CA02 /* SKTEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTEffects.h; path = ../SKTEffects.h; sourceTree = "<group>"; };
-		18B8711B1C4D34B600B8CA02 /* SKTEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTEffects.m; path = ../SKTEffects.m; sourceTree = "<group>"; };
-		18B8711D1C4D34E500B8CA02 /* SKTTimingFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTTimingFunctions.h; path = ../SKTTimingFunctions.h; sourceTree = "<group>"; };
-		18B8711E1C4D34E500B8CA02 /* SKTTimingFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTTimingFunctions.m; path = ../SKTTimingFunctions.m; sourceTree = "<group>"; };
 		18D383511C57B9370001D66A /* EndScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndScene.h; sourceTree = "<group>"; };
 		18D383521C57B9370001D66A /* EndScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndScene.m; sourceTree = "<group>"; };
 		18D383531C57B9370001D66A /* BugCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BugCode.h; path = TrackBugs/BugCode.h; sourceTree = "<group>"; };
@@ -125,15 +129,11 @@
 		18F4942E1C3F0D09007F7CBA /* LanguageScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageScene.m; sourceTree = "<group>"; };
 		18F494301C3F0D26007F7CBA /* LevelScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelScene.h; sourceTree = "<group>"; };
 		18F494311C3F0D26007F7CBA /* LevelScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelScene.m; sourceTree = "<group>"; };
-		18F494331C3F3646007F7CBA /* slGameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = slGameData.h; path = TrackBugs/slGameData.h; sourceTree = "<group>"; };
-		18F494341C3F3646007F7CBA /* slGameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = slGameData.m; path = TrackBugs/slGameData.m; sourceTree = "<group>"; };
 		18F494361C3F369F007F7CBA /* IntroScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroScene.h; sourceTree = "<group>"; };
 		18F494371C3F369F007F7CBA /* IntroScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroScene.m; sourceTree = "<group>"; };
 		18FF27651C59467900E028F4 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = ../Settings.bundle; sourceTree = "<group>"; };
 		18FF276F1C596EFF00E028F4 /* 25_mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 25_mask.png; sourceTree = "<group>"; };
 		18FF27701C596EFF00E028F4 /* Hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hi.png; sourceTree = "<group>"; };
-		18FF27711C596EFF00E028F4 /* UIImage+Mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Mask.h"; path = "../UIImage+Mask.h"; sourceTree = "<group>"; };
-		18FF27721C596EFF00E028F4 /* UIImage+Mask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Mask.m"; path = "../UIImage+Mask.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,10 +239,8 @@
 		1895F93E1C3DD3CF00968D96 /* SKTUtils */ = {
 			isa = PBXGroup;
 			children = (
-				18FF27711C596EFF00E028F4 /* UIImage+Mask.h */,
-				18FF27721C596EFF00E028F4 /* UIImage+Mask.m */,
-				18B8711D1C4D34E500B8CA02 /* SKTTimingFunctions.h */,
-				18B8711E1C4D34E500B8CA02 /* SKTTimingFunctions.m */,
+				1808B4371C89DD47004816AC /* UIImage+Mask.h */,
+				1808B4381C89DD47004816AC /* UIImage+Mask.m */,
 				1895F93F1C3DD3CF00968D96 /* SKAction+SKTExtras.h */,
 				1895F9401C3DD3CF00968D96 /* SKAction+SKTExtras.m */,
 				1895F9411C3DD3CF00968D96 /* SKEmitterNode+SKTExtras.h */,
@@ -253,8 +251,10 @@
 				1895F9461C3DD3CF00968D96 /* SKTAudio.m */,
 				1895F9471C3DD3CF00968D96 /* SKTUtils.h */,
 				1895F9481C3DD3CF00968D96 /* SKTUtils.mm */,
-				18B8711A1C4D34B600B8CA02 /* SKTEffects.h */,
-				18B8711B1C4D34B600B8CA02 /* SKTEffects.m */,
+				1808B42B1C89DC4A004816AC /* SKTTimingFunctions.h */,
+				1808B42C1C89DC4A004816AC /* SKTTimingFunctions.m */,
+				1808B42E1C89DC59004816AC /* SKTEffects.h */,
+				1808B42F1C89DC59004816AC /* SKTEffects.m */,
 			);
 			path = SKTUtils;
 			sourceTree = "<group>";
@@ -301,8 +301,8 @@
 		1895F95A1C3DD7E500968D96 /* AI */ = {
 			isa = PBXGroup;
 			children = (
-				1895F9291C3DD3AD00968D96 /* AISteering.h */,
-				1895F92A1C3DD3AD00968D96 /* AISteering.m */,
+				1808B4341C89DCFF004816AC /* AISteering.h */,
+				1808B4351C89DCFF004816AC /* AISteering.m */,
 			);
 			name = AI;
 			path = ..;
@@ -311,8 +311,8 @@
 		18D1DAA71C5701CE005753EE /* SaveData */ = {
 			isa = PBXGroup;
 			children = (
-				18F494331C3F3646007F7CBA /* slGameData.h */,
-				18F494341C3F3646007F7CBA /* slGameData.m */,
+				1808B4311C89DCB3004816AC /* slGameData.h */,
+				1808B4321C89DCB3004816AC /* slGameData.m */,
 			);
 			name = SaveData;
 			path = ..;
@@ -478,28 +478,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				1895F93C1C3DD3AD00968D96 /* Player.m in Sources */,
-				18B8711C1C4D34B600B8CA02 /* SKTEffects.m in Sources */,
 				18D383581C57B9370001D66A /* BugCode.m in Sources */,
 				18F494381C3F369F007F7CBA /* IntroScene.m in Sources */,
 				18D383571C57B9370001D66A /* EndScene.m in Sources */,
-				18B8711F1C4D34E500B8CA02 /* SKTTimingFunctions.m in Sources */,
 				18F494321C3F0D26007F7CBA /* LevelScene.m in Sources */,
 				18D3835C1C57B9BF0001D66A /* GoodCode.m in Sources */,
 				1895F94E1C3DD3CF00968D96 /* SKNode+SKTExtras.m in Sources */,
 				1895F94D1C3DD3CF00968D96 /* SKEmitterNode+SKTExtras.m in Sources */,
 				1895F93B1C3DD3AD00968D96 /* Entity.m in Sources */,
+				1808B4391C89DD47004816AC /* UIImage+Mask.m in Sources */,
 				1895F8FB1C3DD1CB00968D96 /* GameViewController.m in Sources */,
+				1808B4361C89DCFF004816AC /* AISteering.m in Sources */,
 				1895F9281C3DD33500968D96 /* MyScene.m in Sources */,
 				1895F8F31C3DD1CB00968D96 /* AppDelegate.m in Sources */,
-				18FF27751C596EFF00E028F4 /* UIImage+Mask.m in Sources */,
 				18F4942F1C3F0D09007F7CBA /* LanguageScene.m in Sources */,
 				1895F8F01C3DD1CB00968D96 /* main.m in Sources */,
 				1895F94F1C3DD3CF00968D96 /* SKTAudio.m in Sources */,
+				1808B4301C89DC59004816AC /* SKTEffects.m in Sources */,
+				1808B42D1C89DC4A004816AC /* SKTTimingFunctions.m in Sources */,
+				1808B4331C89DCB3004816AC /* slGameData.m in Sources */,
 				1895F9371C3DD3AD00968D96 /* Code.m in Sources */,
 				1895F9501C3DD3CF00968D96 /* SKTUtils.mm in Sources */,
 				1895F94C1C3DD3CF00968D96 /* SKAction+SKTExtras.m in Sources */,
-				18F494351C3F3646007F7CBA /* slGameData.m in Sources */,
-				1895F9361C3DD3AD00968D96 /* AISteering.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
